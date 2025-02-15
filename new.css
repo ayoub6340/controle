@@ -1,0 +1,112 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;700&display=swap');
+
+/* General Styles */
+html, body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+/* Sticky Navbar */
+.navbar {
+    padding: 15px;
+}
+
+/* Restaurant Name */
+.restaurant-name {
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    color: white;
+}
+
+/* Section Title */
+.section-title {
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Grid Layout for Equal-Sized Sections */
+.new-item {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%; /* Makes sure all sections have the same height */
+    animation: fadeInUp 1s ease-in-out;
+}
+
+/* Hover Effect */
+.new-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.5);
+}
+
+/* Image Container */
+.new-item img {
+    width: 100%;
+    height: 200px; /* Ensures all images are the same height */
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Zoom Effect */
+.new-item img:hover {
+    transform: scale(1.05);
+}
+
+/* New Item Text */
+.new-text {
+    padding: 15px 0;
+    flex-grow: 1; /* Makes sure text is aligned properly */
+}
+
+/* Fade-in Effect */
+.fade-in {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: aliceblue;
+    font-size: 14px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .restaurant-name {
+        font-size: 28px;
+    }
+    
+    .new-item {
+        padding: 15px;
+    }
+
+    .new-item img {
+        height: 180px;
+    }
+}

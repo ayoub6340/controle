@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(1, 1, 14);
+    color: white;
+}
+
+nav {
+    display: flex;
+    list-style-type: none;
+    filter: blur(40%);
+}
+
+nav img {
+    width: 60px;
+    height: 60px;
+    margin-left: 4%;
+    margin-top: 9px;
+    background: transparent;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    margin-left: 630px;
+    margin-top: 50px;
+    background: transparent;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    background: transparent;
+
+}
+
+a:hover {
+    color: red;
+    font-size: x-large;
+}
+
+.mid ,nav{
+    background-image: url(../les\ image\ et\ video\ et\ son/project4/hero-background1.jpg);
+}
+.mid{
+    width: 1400px;
+    height: 600px;
+    top: 80px;
+}
+
+.mid h1 {
+    font-size: 3.5rem;
+    background: transparent;
+    position: relative;
+    top: 20%;
+    left: 4%;
+}
+
+.mid h2 {
+    font-size: 2rem;
+    background: transparent;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.mid button {
+    font-size: large;
+    background: transparent;
+    position: relative;
+    top: 20%;
+    left: 5%;
+    background: linear-gradient(red, red);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.mid button:hover {
+    background: black;
+    color: red;
+}
+
+.explore img {
+    width: 600px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-top: 12%;
+    position: relative;
+    left: 49%;
+}
+
+.explore h1 {
+    position: relative;
+    top: -400px;
+    left: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    background: transparent;
+
+}
+
+.explore p {
+    position: relative;
+    top: -400px;
+    left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: transparent;
+}
+
+.explore button {
+    position: relative;
+    top: -400px;
+    left: 330px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: transparent;
+    font-size: large;
+    background: transparent;
+    background: linear-gradient(red, red);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.explore button:hover {
+    background: black;
+    color: red;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 9%;
+}
+
+.menu img {
+    width: 300px;
+}
+
+#Menu h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+form {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(1, 1, 13);
+    margin-left: 35%;
+}
+
+form h1 {
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+input,
+textarea {
+    background-color: white;
+    padding: 3px;
+    width: 320px;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: black;
+}
+
+form button {
+    background: linear-gradient(red, red);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    width: 90px;
+    margin-left: 120px;
+}
+form button:hover{
+    background: black;
+    color: red;
+}
+
+h5 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+h6 {
+    margin-left: 20%;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+.comment1 img {
+    width: 90px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 42%;
+}
+
+.comment1 p {
+    margin-left: 20%;
+}
+
+h6 {
+    margin-left: 20%;
+    font-size: 1.5rem;
+    margin-bottom: 200px;
+}
+
+.comment2 img {
+    width: 90px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 42%;
+}
+
+.comment2 p {
+    margin-left: 20%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 200px;
+}
+
+.gallery img {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-left: 0px;
+}
+.us nav{
+    gap: 90px;
+    margin-left: 370px;
+    margin-bottom: 40px;
+}
+.us h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.us button{
+    background: linear-gradient(red, red);
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 3px;
+    width: 90px;
+    margin-left: 120px;
+    width: 150px;
+}
+.us button:hover{
+    background: black;
+    color: red;
+}
+footer img{
+    width: 300px;
+    margin-top: -220px;
+    margin-left: 430px;
+    margin-bottom: 10px;
+}
+footer h6{
+    word-spacing: 20px;
+    font-size: large;
+    margin-left: 300px;
+    margin-bottom: 80px;
+}
+footer p{
+    text-align: center;
+}
